@@ -293,6 +293,12 @@ body {
   transition-delay: 0.6s;
 }
 
+/* Brand photo treatment — pushes neutral whites/greys toward warm blush so photos sit naturally on the ivory palette */
+.brand-photo {
+  filter: sepia(0.18) saturate(1.08) hue-rotate(-8deg) contrast(0.96)
+    brightness(1.03);
+}
+
 @keyframes studio-light-drift {
   0%,
   100% {

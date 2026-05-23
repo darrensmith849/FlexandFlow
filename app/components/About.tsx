@@ -1,6 +1,6 @@
 import { Quote, ChevronDown } from "lucide-react";
 import Lotus from "./Lotus";
-import AboutStudioPanel from "./AboutStudioPanel";
+import AboutPhotoPanel from "./AboutPhotoPanel";
 import Reveal from "./Reveal";
 
 const HIGHLIGHTS = [
@@ -60,7 +60,7 @@ export default function About() {
 
             {/* Replace with real photo of Christina later. */}
             <div
-              className="relative aspect-[2/3] rounded-[28px] overflow-hidden border border-line/45 shadow-[0_30px_80px_-40px_rgba(142,52,56,0.28)] bg-gradient-to-tl from-blush-100 via-soft-cream to-ivory"
+              className="relative aspect-[3/4] rounded-[28px] overflow-hidden border border-line/45 shadow-[0_30px_80px_-40px_rgba(142,52,56,0.28)] bg-gradient-to-tl from-blush-100 via-soft-cream to-ivory"
               aria-hidden="true"
             >
               <div
@@ -70,7 +70,7 @@ export default function About() {
                     "radial-gradient(circle at 30% 30%, rgba(248,221,221,0.7) 0%, transparent 55%), radial-gradient(circle at 75% 85%, rgba(239,191,192,0.5) 0%, transparent 55%)",
                 }}
               />
-              <AboutStudioPanel className="absolute inset-0 w-full h-full" />
+              <AboutPhotoPanel className="absolute inset-0 w-full h-full" />
 
               <div className="absolute bottom-8 left-8 right-8 text-deep-rose">
                 <p className="text-[0.72rem] tracking-[0.3em] uppercase opacity-75">
