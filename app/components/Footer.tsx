@@ -4,6 +4,7 @@ const QUICK_LINKS = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#schedule", label: "Class Schedule" },
+  { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ's" },
   { href: "#contact", label: "Contact" },
 ];

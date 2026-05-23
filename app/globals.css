@@ -127,6 +127,33 @@ body {
   transform: none;
 }
 
+@keyframes breathe-ring {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+.breathe-ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: breathe-ring 10s ease-in-out infinite;
+}
+.breathe-ring-1 {
+  animation-delay: 0s;
+}
+.breathe-ring-2 {
+  animation-delay: 1.4s;
+}
+.breathe-ring-3 {
+  animation-delay: 2.8s;
+}
+.breathe-ring-4 {
+  animation-delay: 4.2s;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -135,6 +162,10 @@ body {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+  .breathe-ring {
+    animation: none;
+    opacity: 0.5;
   }
 }
 

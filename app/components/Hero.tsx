@@ -1,6 +1,6 @@
 import { MessageCircle, Sparkles } from "lucide-react";
 import Lotus from "./Lotus";
-import Silhouette from "./Silhouette";
+import FlowVisual from "./FlowVisual";
 import Reveal from "./Reveal";
 
 const WHATSAPP_URL = "https://wa.me/27685660513";
@@ -79,12 +79,7 @@ export default function Hero() {
                     "radial-gradient(circle at 70% 25%, rgba(248,221,221,0.85) 0%, transparent 55%), radial-gradient(circle at 25% 80%, rgba(239,191,192,0.55) 0%, transparent 60%)",
                 }}
               />
-              <div className="absolute top-14 right-10 w-36 h-36 rounded-full border border-line/45" />
-              <div className="absolute -bottom-28 -left-20 w-72 h-72 rounded-full border border-line/30" />
-
-              <div className="absolute inset-0 flex items-end justify-center opacity-55">
-                <Silhouette className="h-[92%]" />
-              </div>
+              <FlowVisual className="absolute inset-0 w-full h-full" />
 
               <div className="absolute top-8 left-8 flex items-center gap-3 text-deep-rose/70">
                 <Lotus size={26} strokeWidth={1.4} />

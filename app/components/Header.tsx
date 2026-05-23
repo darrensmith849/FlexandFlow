@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#schedule", label: "Class Schedule" },
+  { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ's" },
   { href: "#contact", label: "Contact" },
 ];
@@ -42,7 +43,7 @@ export default function Header() {
           </span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-8" aria-label="Primary">
+        <nav className="hidden lg:flex items-center gap-7" aria-label="Primary">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
@@ -70,7 +71,7 @@ export default function Header() {
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}
-            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-deep-rose hover:bg-blush-50 transition-colors"
+            className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-full text-deep-rose hover:bg-blush-50 transition-colors"
           >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -80,7 +81,7 @@ export default function Header() {
       {open && (
         <div
           id="mobile-menu"
-          className="md:hidden absolute left-0 right-0 top-full bg-ivory border-b border-line/40 shadow-sm"
+          className="lg:hidden absolute left-0 right-0 top-full bg-ivory border-b border-line/40 shadow-sm"
         >
           <nav className="px-6 py-6 flex flex-col gap-4" aria-label="Mobile">
             {NAV_LINKS.map((link) => (

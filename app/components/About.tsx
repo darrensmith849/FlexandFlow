@@ -1,5 +1,6 @@
 import { Quote, ChevronDown } from "lucide-react";
 import Lotus from "./Lotus";
+import BreathingOrb from "./BreathingOrb";
 import Reveal from "./Reveal";
 
 const HIGHLIGHTS = [
@@ -69,12 +70,7 @@ export default function About() {
                     "radial-gradient(circle at 30% 30%, rgba(248,221,221,0.7) 0%, transparent 55%), radial-gradient(circle at 75% 85%, rgba(239,191,192,0.5) 0%, transparent 55%)",
                 }}
               />
-              <div className="absolute top-12 left-10 w-28 h-28 rounded-full border border-line/40" />
-              <div className="absolute -bottom-24 -right-20 w-64 h-64 rounded-full bg-blush-100/60 blur-2xl" />
-
-              <div className="absolute inset-0 flex items-center justify-center text-deep-rose/45">
-                <Lotus size={140} strokeWidth={0.9} />
-              </div>
+              <BreathingOrb className="absolute inset-0 w-full h-full" />
 
               <div className="absolute bottom-8 left-8 right-8 text-deep-rose">
                 <p className="text-[0.72rem] tracking-[0.3em] uppercase opacity-75">
