@@ -40,7 +40,10 @@ export default function Hero() {
 
           <div className="mt-9">
             <a
-              href="#schedule"
+              href="https://wa.me/27685660513"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Book your class on WhatsApp"
               className="inline-flex items-center rounded-full bg-dusty-rose hover:bg-rose text-white px-8 py-3.5 text-[1.05rem] tracking-wide transition-all hover:-translate-y-px shadow-sm"
             >
               Book Your Class

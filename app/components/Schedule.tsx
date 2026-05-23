@@ -146,7 +146,10 @@ export default function Schedule() {
               Join us and give your body the care it deserves.
             </p>
             <a
-              href="#contact"
+              href="https://wa.me/27685660513"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Book your class on WhatsApp"
               className="mt-7 inline-flex items-center rounded-full bg-dusty-rose hover:bg-rose text-white px-8 py-3.5 text-[1.05rem] tracking-wide transition-all hover:-translate-y-px shadow-sm"
             >
               Book Your Class

@@ -56,7 +56,10 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#schedule"
+            href="https://wa.me/27685660513"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Book a class on WhatsApp"
             className="hidden sm:inline-flex items-center rounded-full bg-dusty-rose hover:bg-rose text-white px-5 md:px-6 py-2.5 text-[0.98rem] tracking-wide transition-all hover:-translate-y-px shadow-sm"
           >
             Book Now
@@ -91,7 +94,10 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#schedule"
+              href="https://wa.me/27685660513"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Book a class on WhatsApp"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex justify-center rounded-full bg-dusty-rose text-white px-6 py-3 tracking-wide"
             >
