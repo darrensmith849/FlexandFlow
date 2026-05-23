@@ -154,6 +154,74 @@ body {
   animation-delay: 4.2s;
 }
 
+@keyframes breath-pulse {
+  0% {
+    transform: scale(0.65);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
+.breath-arc {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: breath-pulse 6.5s ease-out infinite;
+}
+.breath-arc-2 {
+  animation-delay: 2.2s;
+}
+.breath-arc-3 {
+  animation-delay: 4.4s;
+}
+
+@keyframes figure-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.figure-float {
+  animation: figure-float 7.5s ease-in-out infinite;
+}
+
+@keyframes flow-drift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-12px);
+  }
+}
+.flow-line {
+  animation: flow-drift 11s ease-in-out infinite;
+}
+.flow-line-2 {
+  animation: flow-drift 13s ease-in-out infinite 1.5s;
+}
+.flow-line-3 {
+  animation: flow-drift 15s ease-in-out infinite 3s;
+}
+
+@keyframes draw-in {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.draw-in-once {
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  animation: draw-in 2.6s ease-out 0.4s forwards;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -166,6 +234,21 @@ body {
   .breathe-ring {
     animation: none;
     opacity: 0.5;
+  }
+  .breath-arc,
+  .figure-float,
+  .flow-line,
+  .flow-line-2,
+  .flow-line-3,
+  .draw-in-once {
+    animation: none !important;
+  }
+  .draw-in-once {
+    stroke-dashoffset: 0;
+  }
+  .breath-arc {
+    opacity: 0.35;
+    transform: none;
   }
 }
 

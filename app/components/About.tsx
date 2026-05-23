@@ -1,6 +1,6 @@
 import { Quote, ChevronDown } from "lucide-react";
 import Lotus from "./Lotus";
-import BreathingOrb from "./BreathingOrb";
+import SeatedFigure from "./SeatedFigure";
 import Reveal from "./Reveal";
 
 const HIGHLIGHTS = [
@@ -70,7 +70,7 @@ export default function About() {
                     "radial-gradient(circle at 30% 30%, rgba(248,221,221,0.7) 0%, transparent 55%), radial-gradient(circle at 75% 85%, rgba(239,191,192,0.5) 0%, transparent 55%)",
                 }}
               />
-              <BreathingOrb className="absolute inset-0 w-full h-full" />
+              <SeatedFigure className="absolute inset-0 w-full h-full" />
 
               <div className="absolute bottom-8 left-8 right-8 text-deep-rose">
                 <p className="text-[0.72rem] tracking-[0.3em] uppercase opacity-75">
