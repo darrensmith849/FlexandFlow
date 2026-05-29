@@ -22,7 +22,7 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           background:
-            "linear-gradient(135deg, #fffaf7 0%, #fdf5f2 45%, #f8dddd 100%)",
+            "linear-gradient(135deg, #faf6ed 0%, #f1ebde 45%, #d8dec6 100%)",
           fontFamily: "Georgia, 'Times New Roman', serif",
         }}
       >
@@ -58,7 +58,7 @@ export default async function Image() {
               height: 630,
               display: "flex",
               background:
-                "linear-gradient(90deg, transparent 0%, transparent 58%, #fdf5f2 100%)",
+                "linear-gradient(90deg, transparent 0%, transparent 58%, #f1ebde 100%)",
             }}
           />
           {/* Subtle blush wash to integrate the photo into the brand palette */}
@@ -71,7 +71,7 @@ export default async function Image() {
               height: 630,
               display: "flex",
               background:
-                "linear-gradient(180deg, rgba(248,221,221,0.16) 0%, rgba(239,191,192,0.30) 100%)",
+                "linear-gradient(180deg, rgba(216,222,198,0.16) 0%, rgba(185,196,164,0.30) 100%)",
             }}
           />
         </div>
@@ -93,7 +93,7 @@ export default async function Image() {
               display: "flex",
               alignItems: "center",
               gap: 14,
-              color: "#df8f91",
+              color: "#7a8d71",
               marginBottom: 28,
             }}
           >
@@ -101,7 +101,7 @@ export default async function Image() {
               style={{
                 width: 52,
                 height: 1,
-                background: "#df8f91",
+                background: "#7a8d71",
                 display: "flex",
               }}
             />
@@ -125,22 +125,22 @@ export default async function Image() {
             }}
           >
             <div
-              style={{ fontSize: 84, lineHeight: 1.0, color: "#df8f91", display: "flex" }}
+              style={{ fontSize: 84, lineHeight: 1.0, color: "#7a8d71", display: "flex" }}
             >
               Stretch.
             </div>
             <div
-              style={{ fontSize: 84, lineHeight: 1.0, color: "#df8f91", display: "flex" }}
+              style={{ fontSize: 84, lineHeight: 1.0, color: "#7a8d71", display: "flex" }}
             >
               Breathe.
             </div>
             <div
-              style={{ fontSize: 84, lineHeight: 1.0, color: "#8e3438", display: "flex" }}
+              style={{ fontSize: 84, lineHeight: 1.0, color: "#4a5c3f", display: "flex" }}
             >
               Release.
             </div>
             <div
-              style={{ fontSize: 84, lineHeight: 1.0, color: "#8e3438", display: "flex" }}
+              style={{ fontSize: 84, lineHeight: 1.0, color: "#4a5c3f", display: "flex" }}
             >
               Reset.
             </div>
@@ -150,7 +150,7 @@ export default async function Image() {
           <div
             style={{
               fontSize: 26,
-              color: "#6f5f5f",
+              color: "#6b6a5f",
               fontStyle: "italic",
               maxWidth: 520,
               display: "flex",

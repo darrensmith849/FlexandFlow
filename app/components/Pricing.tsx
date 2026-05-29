@@ -98,7 +98,7 @@ export default function Pricing() {
               monthly rhythm that helps your body feel lighter, calmer, and
               more open.
             </p>
-            <div className="mt-7 inline-flex items-center gap-2.5 rounded-full bg-ivory border border-line/55 px-5 py-2.5 text-deep-rose text-[0.95rem] shadow-[0_2px_18px_-10px_rgba(142,52,56,0.3)]">
+            <div className="mt-7 inline-flex items-center gap-2.5 rounded-full bg-ivory border border-line/55 px-5 py-2.5 text-deep-rose text-[0.95rem] shadow-[0_2px_18px_-10px_rgba(74,92,63,0.3)]">
               <Sparkles
                 size={16}
                 strokeWidth={1.7}
@@ -122,12 +122,12 @@ export default function Pricing() {
                 key={plan.name}
                 className={`relative flex flex-col rounded-3xl border p-8 md:p-9 ${
                   plan.featured
-                    ? "border-dusty-rose/70 bg-gradient-to-br from-blush-50 via-ivory to-soft-cream shadow-[0_24px_60px_-25px_rgba(142,52,56,0.4)]"
-                    : "border-line/55 bg-ivory shadow-[0_2px_30px_-18px_rgba(142,52,56,0.22)]"
+                    ? "border-dusty-rose/70 bg-gradient-to-br from-blush-50 via-ivory to-soft-cream shadow-[0_24px_60px_-25px_rgba(74,92,63,0.4)]"
+                    : "border-line/55 bg-ivory shadow-[0_2px_30px_-18px_rgba(74,92,63,0.22)]"
                 }`}
               >
                 {plan.badge && (
-                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-dusty-rose text-white px-4 py-1.5 text-[0.74rem] tracking-[0.2em] uppercase shadow-[0_8px_20px_-8px_rgba(142,52,56,0.5)]">
+                  <span className="absolute -top-3.5 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-dusty-rose text-white px-4 py-1.5 text-[0.74rem] tracking-[0.2em] uppercase shadow-[0_8px_20px_-8px_rgba(74,92,63,0.5)]">
                     <Sparkles size={12} strokeWidth={2} aria-hidden="true" />
                     {plan.badge}
                   </span>
@@ -188,7 +188,7 @@ export default function Pricing() {
                   aria-label={`${plan.cta} on WhatsApp`}
                   className={`mt-7 md:mt-auto md:pt-7 inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-[1rem] tracking-wide transition-all hover:-translate-y-0.5 ${
                     plan.featured
-                      ? "bg-dusty-rose hover:bg-rose text-white shadow-[0_12px_30px_-12px_rgba(142,52,56,0.5)]"
+                      ? "bg-dusty-rose hover:bg-rose text-white shadow-[0_12px_30px_-12px_rgba(74,92,63,0.5)]"
                       : "border border-dusty-rose text-deep-rose hover:bg-dusty-rose hover:text-white bg-ivory"
                   }`}
                 >
@@ -205,7 +205,7 @@ export default function Pricing() {
         </Reveal>
 
         <Reveal>
-          <article className="mt-10 md:mt-12 rounded-3xl border border-line/45 bg-ivory p-8 md:p-10 grid md:grid-cols-[1.4fr_1fr] gap-6 md:gap-10 md:items-center shadow-[0_2px_30px_-18px_rgba(142,52,56,0.2)]">
+          <article className="mt-10 md:mt-12 rounded-3xl border border-line/45 bg-ivory p-8 md:p-10 grid md:grid-cols-[1.4fr_1fr] gap-6 md:gap-10 md:items-center shadow-[0_2px_30px_-18px_rgba(74,92,63,0.2)]">
             <div>
               <p className="text-[0.8rem] tracking-[0.3em] uppercase text-dusty-rose">
                 Private Sessions

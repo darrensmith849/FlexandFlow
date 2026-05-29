@@ -47,7 +47,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Book your class on WhatsApp"
-              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-dusty-rose hover:bg-rose text-white px-9 py-4 text-[1.1rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(142,52,56,0.5)]"
+              className="inline-flex items-center justify-center gap-2.5 rounded-full bg-dusty-rose hover:bg-rose text-white px-9 py-4 text-[1.1rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(74,92,63,0.5)]"
             >
               <MessageCircle size={18} strokeWidth={1.8} aria-hidden="true" />
               Book Your Class
@@ -69,14 +69,14 @@ export default function Hero() {
         <div className="hidden lg:block relative">
           <Reveal>
             <div
-              className="relative aspect-[4/5] rounded-[32px] overflow-hidden border border-line/50 shadow-[0_30px_80px_-40px_rgba(142,52,56,0.32)] bg-gradient-to-br from-blush-50 via-soft-cream to-blush-100"
+              className="relative aspect-[4/5] rounded-[32px] overflow-hidden border border-line/50 shadow-[0_30px_80px_-40px_rgba(74,92,63,0.32)] bg-gradient-to-br from-blush-50 via-soft-cream to-blush-100"
               aria-hidden="true"
             >
               <div
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(circle at 70% 25%, rgba(248,221,221,0.85) 0%, transparent 55%), radial-gradient(circle at 25% 80%, rgba(239,191,192,0.55) 0%, transparent 60%)",
+                    "radial-gradient(circle at 70% 25%, rgba(216,222,198,0.85) 0%, transparent 55%), radial-gradient(circle at 25% 80%, rgba(185,196,164,0.55) 0%, transparent 60%)",
                 }}
               />
               <HeroPhotoPanel className="absolute inset-0 w-full h-full" />

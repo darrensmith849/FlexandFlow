@@ -74,7 +74,7 @@ export default function Schedule() {
             {CLASSES.map((c) => (
               <article
                 key={c.day}
-                className="relative rounded-2xl border border-line/55 bg-ivory p-8 md:p-10 shadow-[0_2px_30px_-12px_rgba(142,52,56,0.2)] flex flex-col"
+                className="relative rounded-2xl border border-line/55 bg-ivory p-8 md:p-10 shadow-[0_2px_30px_-12px_rgba(74,92,63,0.2)] flex flex-col"
               >
                 <Leaf
                   size={32}
@@ -173,7 +173,7 @@ export default function Schedule() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Book your class on WhatsApp"
-              className="mt-7 inline-flex items-center gap-2.5 rounded-full bg-dusty-rose hover:bg-rose text-white px-9 py-4 text-[1.1rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(142,52,56,0.5)]"
+              className="mt-7 inline-flex items-center gap-2.5 rounded-full bg-dusty-rose hover:bg-rose text-white px-9 py-4 text-[1.1rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(74,92,63,0.5)]"
             >
               <MessageCircle size={18} strokeWidth={1.8} aria-hidden="true" />
               Book Your Class

@@ -39,7 +39,7 @@ export default function Contact() {
 
         <Reveal>
           <div className="mt-14 grid md:grid-cols-[1.15fr_1fr] gap-6 md:gap-8">
-            <article className="relative rounded-3xl border border-line/55 bg-gradient-to-br from-blush-50 via-ivory to-soft-cream p-8 md:p-10 shadow-[0_10px_40px_-18px_rgba(142,52,56,0.28)] flex flex-col">
+            <article className="relative rounded-3xl border border-line/55 bg-gradient-to-br from-blush-50 via-ivory to-soft-cream p-8 md:p-10 shadow-[0_10px_40px_-18px_rgba(74,92,63,0.28)] flex flex-col">
               <span
                 className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-dusty-rose text-white"
                 aria-hidden="true"
@@ -61,7 +61,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with Christina on WhatsApp"
-                className="mt-7 inline-flex items-center justify-center gap-2.5 self-start rounded-full bg-dusty-rose hover:bg-rose text-white px-8 py-3.5 text-[1.05rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(142,52,56,0.5)]"
+                className="mt-7 inline-flex items-center justify-center gap-2.5 self-start rounded-full bg-dusty-rose hover:bg-rose text-white px-8 py-3.5 text-[1.05rem] tracking-wide transition-all hover:-translate-y-0.5 shadow-[0_12px_30px_-12px_rgba(74,92,63,0.5)]"
               >
                 <MessageCircle size={18} strokeWidth={1.8} aria-hidden="true" />
                 Message us on WhatsApp

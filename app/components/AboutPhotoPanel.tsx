@@ -19,7 +19,7 @@ export default function AboutPhotoPanel({ className }: Props) {
         className="absolute inset-0 mix-blend-multiply"
         style={{
           background:
-            "linear-gradient(180deg, rgba(248,221,221,0.32) 0%, rgba(239,191,192,0.42) 100%)",
+            "linear-gradient(180deg, rgba(216,222,198,0.32) 0%, rgba(185,196,164,0.42) 100%)",
         }}
       />
 
@@ -28,7 +28,7 @@ export default function AboutPhotoPanel({ className }: Props) {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 90% 95% at 50% 45%, transparent 40%, rgba(253,245,242,0.7) 100%)",
+            "radial-gradient(ellipse 90% 95% at 50% 45%, transparent 40%, rgba(241,235,222,0.7) 100%)",
         }}
       />
 
@@ -37,7 +37,7 @@ export default function AboutPhotoPanel({ className }: Props) {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(ellipse 120% 120% at center, transparent 55%, rgba(142,52,56,0.16) 100%)",
+            "radial-gradient(ellipse 120% 120% at center, transparent 55%, rgba(74,92,63,0.16) 100%)",
         }}
       />
 
@@ -46,7 +46,7 @@ export default function AboutPhotoPanel({ className }: Props) {
         className="absolute inset-x-0 bottom-0 h-2/5"
         style={{
           background:
-            "linear-gradient(0deg, rgba(255,250,247,0.92) 0%, rgba(255,250,247,0.45) 40%, transparent 100%)",
+            "linear-gradient(0deg, rgba(250,246,237,0.92) 0%, rgba(250,246,237,0.45) 40%, transparent 100%)",
         }}
       />
     </div>

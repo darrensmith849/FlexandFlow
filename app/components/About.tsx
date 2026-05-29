@@ -60,14 +60,14 @@ export default function About() {
 
             {/* Replace with real photo of Christina later. */}
             <div
-              className="relative aspect-[3/4] rounded-[28px] overflow-hidden border border-line/45 shadow-[0_30px_80px_-40px_rgba(142,52,56,0.28)] bg-gradient-to-tl from-blush-100 via-soft-cream to-ivory"
+              className="relative aspect-[3/4] rounded-[28px] overflow-hidden border border-line/45 shadow-[0_30px_80px_-40px_rgba(74,92,63,0.28)] bg-gradient-to-tl from-blush-100 via-soft-cream to-ivory"
               aria-hidden="true"
             >
               <div
                 className="absolute inset-0"
                 style={{
                   background:
-                    "radial-gradient(circle at 30% 30%, rgba(248,221,221,0.7) 0%, transparent 55%), radial-gradient(circle at 75% 85%, rgba(239,191,192,0.5) 0%, transparent 55%)",
+                    "radial-gradient(circle at 30% 30%, rgba(216,222,198,0.7) 0%, transparent 55%), radial-gradient(circle at 75% 85%, rgba(185,196,164,0.5) 0%, transparent 55%)",
                 }}
               />
               <AboutPhotoPanel className="absolute inset-0 w-full h-full" />
@@ -89,7 +89,7 @@ export default function About() {
             {HIGHLIGHTS.map((h) => (
               <li
                 key={h.quote}
-                className="relative rounded-2xl border border-line/45 bg-ivory p-7 md:p-8 shadow-[0_2px_30px_-18px_rgba(142,52,56,0.25)]"
+                className="relative rounded-2xl border border-line/45 bg-ivory p-7 md:p-8 shadow-[0_2px_30px_-18px_rgba(74,92,63,0.25)]"
               >
                 <Quote
                   size={26}

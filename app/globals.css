@@ -1,34 +1,38 @@
 @import "tailwindcss";
 
+/* Sage brand palette — token names preserved from the prior rose system
+   so component class names (bg-dusty-rose, text-deep-rose, etc.) stay
+   identical; only the colour values shift. deep-rose matches the
+   "MEET CHRISTINA" typography in the hero portrait. */
 @theme {
-  --color-ivory: #fffaf7;
-  --color-soft-cream: #fdf5f2;
-  --color-blush-50: #fff1f1;
-  --color-blush-100: #f8dddd;
-  --color-blush-200: #efbfc0;
-  --color-dusty-rose: #df8f91;
-  --color-rose: #c86f73;
-  --color-deep-rose: #8e3438;
+  --color-ivory: #faf6ed;
+  --color-soft-cream: #f1ebde;
+  --color-blush-50: #ebe8db;
+  --color-blush-100: #d8dec6;
+  --color-blush-200: #b9c4a4;
+  --color-dusty-rose: #7a8d71;
+  --color-rose: #5d7253;
+  --color-deep-rose: #4a5c3f;
   --color-charcoal: #252020;
-  --color-muted: #6f5f5f;
-  --color-line: rgba(200, 111, 115, 0.45);
+  --color-muted: #6b6a5f;
+  --color-line: rgba(74, 92, 63, 0.45);
 
   --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
   --font-body: var(--font-cormorant), Georgia, "Times New Roman", serif;
 }
 
 :root {
-  --colour-ivory: #fffaf7;
-  --colour-soft-cream: #fdf5f2;
-  --colour-blush-50: #fff1f1;
-  --colour-blush-100: #f8dddd;
-  --colour-blush-200: #efbfc0;
-  --colour-dusty-rose: #df8f91;
-  --colour-rose: #c86f73;
-  --colour-deep-rose: #8e3438;
+  --colour-ivory: #faf6ed;
+  --colour-soft-cream: #f1ebde;
+  --colour-blush-50: #ebe8db;
+  --colour-blush-100: #d8dec6;
+  --colour-blush-200: #b9c4a4;
+  --colour-dusty-rose: #7a8d71;
+  --colour-rose: #5d7253;
+  --colour-deep-rose: #4a5c3f;
   --colour-charcoal: #252020;
-  --colour-muted: #6f5f5f;
-  --colour-line: rgba(200, 111, 115, 0.45);
+  --colour-muted: #6b6a5f;
+  --colour-line: rgba(74, 92, 63, 0.45);
 }
 
 html {
@@ -50,6 +54,7 @@ body {
   background: var(--colour-blush-100);
   color: var(--colour-deep-rose);
 }
+/* (selection colours auto-track the token variables — sage now) */
 
 .font-serif-heading {
   font-family: var(--font-serif);
@@ -72,8 +77,8 @@ body {
   height: 70%;
   background: radial-gradient(
     ellipse at center,
-    rgba(248, 221, 221, 0.85) 0%,
-    rgba(248, 221, 221, 0.35) 40%,
+    rgba(216, 222, 198, 0.85) 0%,
+    rgba(216, 222, 198, 0.35) 40%,
     transparent 75%
   );
 }
@@ -84,8 +89,8 @@ body {
   height: 60%;
   background: radial-gradient(
     ellipse at center,
-    rgba(239, 191, 192, 0.5) 0%,
-    rgba(239, 191, 192, 0.2) 40%,
+    rgba(185, 196, 164, 0.5) 0%,
+    rgba(185, 196, 164, 0.2) 40%,
     transparent 75%
   );
 }
@@ -97,12 +102,12 @@ body {
   pointer-events: none;
   background: radial-gradient(
       ellipse at 10% 0%,
-      rgba(248, 221, 221, 0.5) 0%,
+      rgba(216, 222, 198, 0.5) 0%,
       transparent 60%
     ),
     radial-gradient(
       ellipse at 90% 100%,
-      rgba(239, 191, 192, 0.35) 0%,
+      rgba(185, 196, 164, 0.35) 0%,
       transparent 60%
     );
   filter: blur(30px);
@@ -293,10 +298,11 @@ body {
   transition-delay: 0.6s;
 }
 
-/* Brand photo treatment — pushes neutral whites/greys toward warm blush so photos sit naturally on the ivory palette */
+/* Brand photo treatment — very light warm sepia so photos sit on the
+   cream palette without losing their natural colour. Neutral hue, so
+   it works for both sage-friendly studio shots and warmer portraits. */
 .brand-photo {
-  filter: sepia(0.18) saturate(1.08) hue-rotate(-8deg) contrast(0.96)
-    brightness(1.03);
+  filter: sepia(0.05) saturate(1.0) brightness(1.02);
 }
 
 @keyframes studio-light-drift {

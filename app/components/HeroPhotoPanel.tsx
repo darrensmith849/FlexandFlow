@@ -25,7 +25,7 @@ export default function HeroPhotoPanel({ className }: Props) {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 95% 100% at center, transparent 60%, rgba(253,245,242,0.5) 100%)",
+            "radial-gradient(ellipse 95% 100% at center, transparent 60%, rgba(241,235,222,0.5) 100%)",
         }}
       />
     </div>
