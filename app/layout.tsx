@@ -21,6 +21,7 @@ const siteDescription =
   "Flex & Flow is a mindful stretch and mobility class by Christina Ribeiro designed to help you release tension, improve mobility, and feel lighter.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://flexandflow.vercel.app"),
   title: siteTitle,
   description: siteDescription,
   keywords: [
