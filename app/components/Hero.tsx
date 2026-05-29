@@ -69,7 +69,7 @@ export default function Hero() {
         <div className="hidden lg:block relative">
           <Reveal>
             <div
-              className="relative aspect-[4/5] rounded-[32px] overflow-hidden border border-line/50 shadow-[0_30px_80px_-40px_rgba(74,92,63,0.32)] bg-gradient-to-br from-blush-50 via-soft-cream to-blush-100"
+              className="relative aspect-square rounded-[32px] overflow-hidden border border-line/50 shadow-[0_30px_80px_-40px_rgba(74,92,63,0.32)] bg-gradient-to-br from-blush-50 via-soft-cream to-blush-100"
               aria-hidden="true"
             >
               <div
