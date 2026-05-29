@@ -80,22 +80,6 @@ export default function Hero() {
                 }}
               />
               <HeroPhotoPanel className="absolute inset-0 w-full h-full" />
-
-              <div className="absolute top-8 left-8 flex items-center gap-3 text-deep-rose/70">
-                <Lotus size={26} strokeWidth={1.4} />
-                <span className="divider-thin" />
-              </div>
-
-              <div className="absolute bottom-8 left-8 right-8 text-deep-rose">
-                <p className="text-[0.72rem] tracking-[0.3em] uppercase opacity-75">
-                  Movement is medicine
-                </p>
-                <p className="mt-3 font-serif-heading italic text-[1.45rem] leading-snug">
-                  Slow, intentional stretches —
-                  <br />
-                  release where you need it most.
-                </p>
-              </div>
             </div>
           </Reveal>
         </div>
